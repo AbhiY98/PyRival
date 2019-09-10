@@ -3,35 +3,82 @@
   <strong>A Python Library for Competitive Programming</strong>
 </div>
 
+<h3 align="center">Developers</h3>
+<div align="center">
+  <strong>
+    <a href="https://github.com/Mukundan314">Mukundan314</a> &emsp;
+    <a href="https://codeforces.com/profile/pajenegod">pajenegod</a> &emsp;
+    <a href="https://github.com/eduard-netsajev">drd93</a> &emsp;
+    <a href="https://github.com/algmyr">algmyr</a> &emsp;
+    <a href="https://github.com/meooow25">meooow</a> &emsp;
+  </strong>
+</div>
+
 ---
 
-### About
-- A Master Template optimized for performance in PyPy 2
-- Optimized code snippets written in Python 3
+### Features
+- Templates
+- Programming Tools
+- Algorithm Snippets
 
 ##
 
-### Template
-- [Infinite Recursion](template/infinite_recursion.py)
-- [Python 3 Compatibility](template/py3k.py)
-- [Fast I/O](template/sync_with_stdio.py)
-- [Master Template](template/template.py)
+### Templates
+- The [Master Template](template/template.py) works with all versions of Python and enables Python 3 code internally.
+- Version Specific Templates: [PyPy 2](template/template_pypy2.py), [Python 3](template/template_py3.py)
+
+##
+
+### Misc Code
+  - bootstrap for recursion
+  - FastIO
+  - heapq
+  - sorted
+  - py3k compatibility tools
+  - random
+  - str.split for whitespace
+  - Bit Hacks
+  - 32-bit Modular Arithmetic
+  - Memoize Decorators
+  - C++ syle cout
+  - Interactive Runner
+  - Stress Tester
+  - Alpha–Beta Pruning
+  - Longest Increasing Subsequence
+  - K-th Order Statistic
 
 ##
 
 ### Snippets
+- Algebra
+  - (Multivariable) Chinese Remainder Theorem
+  - Discrete Logarithm
+  - Least Common Multiple
+  - Integer Factorization
+  - Fast Fourier Transform
+  - Fast Subset Transform
+  - Number Theoretic Transform
+  - Deterministic Miller-Rabin Primality Test
+  - Tonelli–Shanks Algorithm
+  - Generalized Modular Inverse
+  - Euler's Phi Function
+  - Primitive Root
+  - Sieve of Eratosthenes
 - Data Structures
-  - AVL Tree
   - Bit Array
   - Binary Indexed (Fenwick) Tree
-  - Linked List
-  - Memoize Decorators
-  - Generic Nodes
-  - Range Query Data Structure
-  - Red-Black Tree
-  - Segment Tree
-  - Trie Tree
+  - Fractions
+  - Continued Fractions
   - Disjoint-Set (Union Find) Data Structure
+  - Generic Nodes
+  - Linked List
+  - Range Query Data Structure
+  - (Lazy) Segment Tree
+  - Persistent Segment Tree
+  - Sorted List
+  - Treap
+  - Trie Tree
+  - 2-satisfiability Template
 - Geometry
   - Convex Hull
   - Line Functions
@@ -39,34 +86,35 @@
   - Vector Functions
 - Graphs
   - Bellman-Ford Algorithm
-  - Dijkstra's Algorithm
-  - Floyd-Warshall Algorithm
-  - Topological Sorting
-- Mathematics
-  - Alpha–Beta Pruning
-  - Binary Search
-  - Continued Fractions
-  - Chinese Remainder Theorem
-  - General Purpose Numbers
+  - Breadth First Search
+  - Connected Components Search
   - Brent's Algorithm for Cycle Detection
-  - Least Common Multiple and Multiplicative Inverse
-  - Pollard's Rho Algorithm
-  - Deterministic Miller-Rabin Primality Test
-  - Longest Increasing Subsequence
-  - Tonelli–Shanks Algorithm
+  - Depth First Search
+  - Dijkstra's Algorithm
+  - Eulerian Path
+  - Path Constructor
+  - Floyd-Warshall Algorithm
+  - Bipartite Graph Check
+  - Kruskal's Algorithm with Disjoin Set Union
+  - Prim's Algorithm
+  - Tarjan's Algorithm
+  - Topological Sorting
+- Combinatorics
+  - General Purpose Numbers
   - Lucas's Theorem
   - Partition Function
-  - Euler's Phi Function
-  - Sieve of Eratosthenes
-- Numerical
-  - Fast Fourier Transform
+- Linear Algebra
+  - Matrix Arithmetic, Exponentiation, Determinant, and Inverse
   - Gaussian Elimination
+  - Multivariable Chinese Remainder Theorem
+- Numerical
+  - Linear Recurrence Template
+  - Hill Climbing Algorithm
   - Approximate Integration
   - Polynomial Interpolation
-  - Matrix Arithmetic, Exponentiation, Determinant, and Inverse
-  - Linear Recurrence Matrix
-  - Multivariable Chinese Remainder Theorem
-- String Processing
+  - Integer Roots
+  - Binary Search
+- Strings
   - Knuth–Morris–Pratt Algorithm
   - Longest Common/Palindromic Subsequences
   - Longest Common Substring
@@ -75,12 +123,5 @@
 
 ##
 
-### Acknowledgements
-
-- Testing and debugging by [Mukundan314](https://github.com/Mukundan314).
-- Faster I/O techniques by [Görre Mörre](https://www.codechef.com/users/gorre_morre) from [SPOJ](https://www.spoj.com/ranks/INTEST/lang=PYPY2.4) testing.
-
-##
-
 ### License
-[MIT](LICENSE) © Cheran Senthilkumar
+[Apache-2.0](LICENSE) (c) 2019
